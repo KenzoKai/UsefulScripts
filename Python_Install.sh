@@ -19,6 +19,6 @@ apt-get install -y python3.10
 update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 20
 
 # Install PIP and Poetry
-curl -sS https://bootstrap.pypa.io/get-pip.py | python
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3
 pip install --upgrade pip
 pip install poetry
