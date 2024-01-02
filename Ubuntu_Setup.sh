@@ -8,3 +8,6 @@ curl -fsSL https://raw.githubusercontent.com/KenzoKai/UsefulScripts/main/Bash/NV
 
 # Download and run Python installation script
 curl -fsSL https://raw.githubusercontent.com/KenzoKai/UsefulScripts/main/Bash/Python_Install.sh | sudo bash
+
+# Install Powershell script
+curl -fsSL https://raw.githubusercontent.com/KenzoKai/UsefulScripts/main/Bash/PowerShell_Install.sh | sudo bash
