@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update and Upgrade the System
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 
 # Prompt for the primary domain name
 read -p "Enter the primary website domain: " domainName
