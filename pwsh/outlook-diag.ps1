@@ -17,9 +17,9 @@ function Test-Connectivity {
     foreach ($url in $testUrls) {
         $response = Test-Connection -ComputerName $url -Count 2 -Quiet
         if ($response -eq $true) {
-            Write-Host "Connection to $url: Successful"
+            Write-Host "Connection to ${url}: Successful"
         } else {
-            Write-Host "Connection to $url: Failed"
+            Write-Host "Connection to ${url}: Failed"
         }
     }
 }
